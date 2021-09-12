@@ -19,15 +19,17 @@ span{
 
 span:hover{
     transform: rotate(180deg);
-    background-color:#005C45;
+    background-color:#E1324E;
+    /* background-color:#005C45; */
     color:white;
-
+    font-style: oblique;
+  
 }
 
 
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:white;
+  
 }
 
 
@@ -39,6 +41,8 @@ body{
     width:93%;
     border-radius:5px;
 
+    
+
 
   
   
@@ -46,6 +50,7 @@ body{
    
     
 }
+
 
 .container{
    padding-top:2rem;
@@ -64,7 +69,7 @@ body{
 }
 
 
-/* .clear-tasks{
+ .clear-tasks{
 
     transition:all 3s ease-in-out;
     background-color:#494A9E;
@@ -78,13 +83,17 @@ body{
     color:#ddd;
     
     
-}
+} 
 
-.clear-tasks:hover{
+ .clear-tasks:hover{
     background-color:#E1324E;
     color:#ddd;
 
-}
+} 
 
- */
+ 
+ 
+
+
+
 
