@@ -1,0 +1,90 @@
+
+
+span{
+    color:#005C45;
+    padding:2rem;
+    text-align:center;
+    font-style: italic;
+    transition: all 3s ease-in-out;
+    cursor: pointer;
+    
+    
+    
+ 
+  
+    
+   
+    
+}
+
+span:hover{
+    transform: rotate(180deg);
+    background-color:#005C45;
+    color:white;
+
+}
+
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+
+
+.btn{
+    margin-top:1.5rem;
+    margin-left:1.2rem;
+  
+    display:inline-block;
+    width:93%;
+    border-radius:5px;
+
+
+  
+  
+
+   
+    
+}
+
+.container{
+   padding-top:2rem;
+ 
+}
+
+.clear-tasks{
+    margin-bottom:1.5rem;
+   
+  
+}
+
+#task-title{
+    font-style: italic;
+     color:#333;
+}
+
+
+/* .clear-tasks{
+
+    transition:all 3s ease-in-out;
+    background-color:#494A9E;
+    
+    display:inline-block;
+    width:100%;
+    text-align: center;
+    padding:0.5rem;
+    border-radius: 5px;
+    margin-top:1.5rem;
+    color:#ddd;
+    
+    
+}
+
+.clear-tasks:hover{
+    background-color:#E1324E;
+    color:#ddd;
+
+}
+
+ */
+
