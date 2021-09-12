@@ -63,10 +63,13 @@ function removeTask(e) {
 function clearTasks() {
   // taskList.innerHTML = '';
 
-  // Faster
-  while(taskList.firstChild) {
-    taskList.removeChild(taskList.firstChild);
+  // Faster:
+  if(confirm('Are You Sure to remove all ?')) {
+    while(taskList.firstChild) {
+      taskList.removeChild(taskList.firstChild);
+    }
   }
+ 
 
   // https://jsperf.com/innerhtml-vs-removechild
 }
