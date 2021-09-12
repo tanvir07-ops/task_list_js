@@ -76,7 +76,10 @@ function clearTasks() {
 
 // Filter Tasks
 function filterTasks(e) {
+  // lowercase e likhlei popup korbe filtergula:
   const text = e.target.value.toLowerCase();
+
+  // jotogula li mil thakbe sob gula jate show kore tar code:
 
   document.querySelectorAll('.collection-item').forEach(function(task){
     const item = task.firstChild.textContent;
